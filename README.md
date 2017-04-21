@@ -22,7 +22,10 @@ Start with these story-splitting exercises:
     * Overly detailed
     * Has `When` steps after `Then` steps
     * Checks more than 1 thing
-2.
+2. [Electric Car](electric_car.feature)
+    * Not customer-focused
+    * Tries to do too much all at once
+    * Asks for the impossible
 
 
 Code
