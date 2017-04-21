@@ -33,7 +33,9 @@ Or peruse them all and see which ones interest you.
 1. [Installations Controller](installations_controller.rb) (Ruby)
     * Lots of duplicated code and nested conditionals
     * Extracted from some actual Rails code
-2.
+2. [Roman Numerals](roman_numerals.java) (Java)
+    * Overly complicated code, plus overly simplistic ("shameless green") code
+    * From http://exercism.io/tracks/java/exercises/roman-numerals
 
 
 More
