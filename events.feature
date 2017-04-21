@@ -19,34 +19,12 @@ Feature: Events
       | 11    | 2014-12-21 | info      | New user: Sue        |
 
   Scenario: Display List of Events
+    Given I am on the home page
     When I click on the Events tab
-    Then I should see the following events (in this order):
-      | date       | type      | description           |
-      | 2014-12-11 | alert     | Something went wrong  |
-      | 2014-12-12 | emergency | Printer on fire!      |
-      | 2014-12-13 | warning   | Something went wrong  |
-      | 2014-12-14 | info      | New user: Bob         |
-      | 2014-12-15 | alert     | Something went wrong  |
-      | 2014-12-16 | alert     | Something went wrong  |
-      | 2014-12-17 | info      | New user: Jim         |
-      | 2014-12-18 | alert     | Something went wrong  |
-      | 2014-12-19 | alert     | Something went wrong  |
-      | 2014-12-20 | alert     | Something went wrong  |
+    Then I should see events #1-10
     When I click on the Next button
-    Then I should see the following events:
-      | date       | type      | description           |
-      | 2014-12-21 | info      | New user: Sue         |
+    Then I should see event #11
     When I click Previous
     And I click Sort by Type
-    Then I should see the following events (in this order):
-      | date       | type      | description           |
-      | 2014-12-12 | emergency | Printer on fire!      |
-      | 2014-12-11 | alert     | Something went wrong  |
-      | 2014-12-15 | alert     | Something went wrong  |
-      | 2014-12-16 | alert     | Something went wrong  |
-      | 2014-12-18 | alert     | Something went wrong  |
-      | 2014-12-19 | alert     | Something went wrong  |
-      | 2014-12-20 | alert     | Something went wrong  |
-      | 2014-12-13 | warning   | Something went wrong  |
-      | 2014-12-14 | info      | New user: Bob         |
-      | 2014-12-17 | info      | New user: Jim         |
+    Then I should see events sorted first in decreasing order by type
+    And I should see events sorted second in increasing order by date
