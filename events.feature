@@ -18,13 +18,20 @@ Feature: Events
       | 10    | 2014-12-20 | alert     | Something went wrong |
       | 11    | 2014-12-21 | info      | New user: Sue        |
 
-  Scenario: Display List of Events
-    Given I am on the home page
-    When I click on the Events tab
+  Scenario: Events page can be sorted
+    Given I am on the Events tab of the home page
+    When I click Sort by Type
+    Then I should see events sorted first in decreasing order by type
+    And  I should see events sorted second in increasing order by date
+
+  @wip
+  Scenario: Events page shows ten events by default
+    Given I am on the Events tab of the home page
     Then I should see events #1-10
+
+  @wip
+  Scenario: Events page includes pagination links
+    Given I am on the Events tab of the home page
     When I click on the Next button
     Then I should see event #11
-    When I click Previous
-    And I click Sort by Type
-    Then I should see events sorted first in decreasing order by type
-    And I should see events sorted second in increasing order by date
+
