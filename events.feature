@@ -1,7 +1,7 @@
 Feature: Events
-  In order to see what's going on
-  As a user
-  I should be able to see all events
+  As a stressed-out front-line support tech
+  I want to learn where the biggest fires are
+  So that I use my precious time on this earth as effectively as I can
 
   Background:
     Given there have been the following events:
