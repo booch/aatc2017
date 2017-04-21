@@ -30,7 +30,9 @@ There's more here than you'll have time to finish during the workshop.
 You might want to start out with a language that you're familiar with.
 Or peruse them all and see which ones interest you.
 
-1.
+1. [Installations Controller](installations_controller.rb) (Ruby)
+    * Lots of duplicated code and nested conditionals
+    * Extracted from some actual Rails code
 2.
 
 
