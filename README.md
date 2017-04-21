@@ -18,7 +18,10 @@ Stories
 
 Start with these story-splitting exercises:
 
-1.
+1. [Events](events.feature)
+    * Overly detailed
+    * Has `When` steps after `Then` steps
+    * Checks more than 1 thing
 2.
 
 
