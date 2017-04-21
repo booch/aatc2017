@@ -45,6 +45,11 @@ Or peruse them all and see which ones interest you.
     * Long methods
     * Probably at least 1 other class needing to be extracted
     * From http://exercism.io/tracks/ruby/exercises/bowling
+5. [Roulette](roulette.cpp) (C++)
+    * Long functions
+    * Needs to extract some classes for obvious abstractions
+    * Lots of loops and conditionals
+    * From http://thedailywtf.com/articles/the-end-of-the-lucky-deuce
 
 
 More
