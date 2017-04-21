@@ -36,6 +36,9 @@ Or peruse them all and see which ones interest you.
 2. [Roman Numerals](roman_numerals.java) (Java)
     * Overly complicated code, plus overly simplistic ("shameless green") code
     * From http://exercism.io/tracks/java/exercises/roman-numerals
+3. [Roman Numerals](roman_numerals.cs) (C#)
+    * Not a bad approach, but needs to be a bit more DRY
+    * From http://exercism.io/tracks/csharp/exercises/roman-numerals
 
 
 More
