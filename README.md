@@ -39,6 +39,12 @@ Or peruse them all and see which ones interest you.
 3. [Roman Numerals](roman_numerals.cs) (C#)
     * Not a bad approach, but needs to be a bit more DRY
     * From http://exercism.io/tracks/csharp/exercises/roman-numerals
+4. [Bowling](bowling.rb) (Ruby)
+    * Inconsistent and cluttered formatting
+        * It _looks_ like it has problems
+    * Long methods
+    * Probably at least 1 other class needing to be extracted
+    * From http://exercism.io/tracks/ruby/exercises/bowling
 
 
 More
